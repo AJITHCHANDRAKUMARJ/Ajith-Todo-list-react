@@ -30,7 +30,7 @@ const handleCheck =(id) => {
 const handleClick = (id) => {
     const listDel = items.filter((item) => item.id !==id);
     setItems(listDel)
-    
+
      localStorage.setItem("todo-list", JSON.stringify(listDel))
 } 
 
@@ -39,7 +39,7 @@ const handleClick = (id) => {
 const handleSubmit = (e) => {
   e.preventDefault()
   if(!newItem) return;
-  console.log(newItem)
+ 
   addList(newItem)
   setNewItem( "")
 }
