@@ -1,5 +1,5 @@
 import React from 'react'
-import ListItems from './ListItems'
+
 
 const Footer = ({length}) => {
 
