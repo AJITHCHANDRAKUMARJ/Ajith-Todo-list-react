@@ -1,7 +1,8 @@
 {
   "name": "ajith",
   "version": "0.1.0",
-  "homepage": "http://AJITHCHANDRAKUMARJ.github.io/react_deploy_gh",
+  
+  "homepage": "https://fanciful-churros-f5be41.netlify.app",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
